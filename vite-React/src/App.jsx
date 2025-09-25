@@ -1,8 +1,9 @@
-
+import New from './New';
 function App() {
   return (
     <>
-     <h1>hello Sir || Mousam</h1>
+    <New />
+     <h1> hello Sir || Mousam</h1>
     </>
   )
 }
