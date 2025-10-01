@@ -1,10 +1,17 @@
-import New from './New';
+
+
+import Chai from "./chai"
+
+
 function App() {
+  const username = "chai aur code"
+
   return (
     <>
-    <New />
-     <h1> hello Sir || Mousam</h1>
-    </>
+    <Chai/>
+    <h1>chai aur react {username}</h1>
+    <p>test para</p>
+   </>
   )
 }
 
