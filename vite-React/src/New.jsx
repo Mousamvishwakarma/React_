@@ -35,9 +35,9 @@ const reactElement = React.createElement(
     anotherElement
 )
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+// ReactDOM.createRoot(document.getElementById('root')).render(
  
-    reactElement
+//     reactElement
   
 )
 
