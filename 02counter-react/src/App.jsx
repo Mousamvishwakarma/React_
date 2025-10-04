@@ -5,8 +5,8 @@ import './App.css'
 
 function App() {
   let counter = 15
-const addValue = () =>{
-  console.log("value add",Math.rendom());
+const addValue = () => {
+  console.log("value add",Math.random());
 }
   return (
     <>
