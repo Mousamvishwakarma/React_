@@ -15,11 +15,15 @@ const addValue = () => {
   console.log("clicked",counter );
   // counter = counter + 1
   setCounter(counter + 1) 
+  // if(counter>=20){
+  //   return setCounter;
+  // }
+  
   
 }
   return (
     <>
-    <h1>hello Mmousam Sir</h1>
+    <h1>hello Mousam Sir</h1>
     <h2>Counter value: {counter}</h2>
     <button
     onClick={addValue}
