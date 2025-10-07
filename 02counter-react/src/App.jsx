@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
 
-    let [counter,setCounter] = useState(15)
+    let [counter,setCounter] = useState(0)
   // let counter = 15
   const removeValue = () =>{
     console.log("Value remove",counter );
@@ -37,3 +37,4 @@ const addValue = () => {
 }
 
 export default App
+//react-fiber-architecture REACT FIBER LEARNING
