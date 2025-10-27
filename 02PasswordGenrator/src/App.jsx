@@ -4,8 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+    const [length, setlength] = useState(8)
 
+  const [NumberAllowed , setNumberAllowed] = useState(false);
+  const [CharAllowed, setCharAllowed] = useState(false);
+  const [password, setpassword] = useState(" ")
+
+  const passwordGenerator =() =>{
+    
+  }
   return (
     <>
       <h1>password Generator</h1>
